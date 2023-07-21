@@ -15,13 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  classroom,
+  admin,
+  jobsearch,
   threejs,
 } from "../assets";
 
@@ -118,7 +115,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "RetinAI(Switzerland)",
-    icon: starbucks,
+    icon: shopify,
     iconBg: "#383E56",
     date: "August 2022 - April 2023",
     points: [
@@ -134,7 +131,7 @@ const experiences = [
   {
     title: "Junior Software Developer",
     company_name: "RenderApp(UK)",
-    icon: tesla,
+    icon: shopify,
     iconBg: "#E6DEDD",
     date: "September 2021 - May 2022",
     points: [
@@ -158,9 +155,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ClassroomApp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based classroom application that allows instructors to add courses with lessons, while students can enroll in these courses and track their progress. ",
     tags: [
       {
         name: "react",
@@ -171,20 +168,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MUI",
         color: "pink-text-gradient",
       },
+      {
+        name: "restapi",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: classroom,
+    source_code_link: "https://github.com/eefe1/Classie",
   },
   {
-    name: "Job IT",
+    name: "Ecommerce Admin Dasboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -192,33 +193,29 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: admin,
+    source_code_link: "https://github.com/eefe1/ecommerce-admin",
   },
   {
-    name: "Trip Guide",
+    name: "Job Search Mobile App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "React Native mobile app for job search with search & pagination functionality",
     tags: [
       {
-        name: "nextjs",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "expo",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobsearch,
+    source_code_link: "https://github.com/eefe1/react-native-jobs",
   },
 ];
 
