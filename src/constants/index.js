@@ -152,6 +152,40 @@ const experiences = [
 
 const projects = [
   {
+    name: "Job Search Mobile App",
+    description:
+      "React Native mobile app for job search with search & pagination functionality",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobsearch,
+    source_code_link: "https://github.com/eefe1/react-native-jobs",
+  },
+  {
+    name: "Travel Brew",
+    description:
+      "Mobile application developed in 4 days with React Native, with Google Place API, designed to assist travellers in discovering the best coffee and cosy spots in the places they visit. Travel Brew has secured 3rd place in the Women Who Code App Deploy with Google Play Hackathon 2023",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+    ],
+    image: travelbrew,
+    source_code_link: "https://github.com/eefe1/travel-brew",
+  },
+  {
     name: "ClassroomApp",
     description:
       "Web-based classroom application that allows instructors to add courses with lessons, while students can enroll in these courses and track their progress. ",
@@ -196,40 +230,6 @@ const projects = [
     ],
     image: admin,
     source_code_link: "https://github.com/eefe1/ecommerce-admin",
-  },
-  {
-    name: "Job Search Mobile App",
-    description:
-      "React Native mobile app for job search with search & pagination functionality",
-    tags: [
-      {
-        name: "react native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "expo",
-        color: "green-text-gradient",
-      },
-    ],
-    image: jobsearch,
-    source_code_link: "https://github.com/eefe1/react-native-jobs",
-  },
-  {
-    name: "Travel Brew",
-    description:
-      "Mobile application developed in 4 days with React Native, with Google Place API, designed to assist travellers in discovering the best coffee and cosy spots in the places they visit. Travel Brew has secured 3rd place in the Women Who Code App Deploy with Google Play Hackathon 2023",
-    tags: [
-      {
-        name: "react native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "expo",
-        color: "green-text-gradient",
-      },
-    ],
-    image: travelbrew,
-    source_code_link: "https://github.com/eefe1/travel-brew",
   },
 ];
 

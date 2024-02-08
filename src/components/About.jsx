@@ -45,7 +45,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a software developer with experience in Javascript, and expertise
-        in frameworks like React,Node.js.
+        in frameworks.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
