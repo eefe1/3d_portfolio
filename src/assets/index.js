@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import classroom from "./classroom.png";
 import admin from "./admin.png";
 import jobsearch from "./jobsearch.png";
+import travelbrew from "./travelbrew.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   classroom,
   admin,
   jobsearch,
+  travelbrew
 };

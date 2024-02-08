@@ -20,6 +20,7 @@ import {
   admin,
   jobsearch,
   threejs,
+  travelbrew
 } from "../assets";
 
 export const navLinks = [
@@ -30,10 +31,6 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
   },
 ];
 
@@ -94,7 +91,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "React Native",
     icon: threejs,
   },
   {
@@ -119,7 +116,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2022 - April 2023",
     points: [
-      "Developing and maintaining wmain product using React.js and other related technologies.",
+      "Developing and maintaining main product using React.js and other related technologies.",
       "Collaborating with cross-functional teams including integration team, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -216,6 +213,23 @@ const projects = [
     ],
     image: jobsearch,
     source_code_link: "https://github.com/eefe1/react-native-jobs",
+  },
+  {
+    name: "Travel Brew",
+    description:
+      "Mobile application developed in 4 days with React Native, with Google Place API, designed to assist travellers in discovering the best coffee and cosy spots in the places they visit. Travel Brew has secured 3rd place in the Women Who Code App Deploy with Google Play Hackathon 2023",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+    ],
+    image: travelbrew,
+    source_code_link: "https://github.com/eefe1/travel-brew",
   },
 ];
 
