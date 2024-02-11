@@ -23,6 +23,7 @@ import {
   travelbrew,
   pokedex,
   todoapp,
+  booklist
 } from "../assets";
 
 export const navLinks = [
@@ -277,6 +278,44 @@ const projects = [
     image: todoapp,
     source_code_link: "https://github.com/eefe1/demo-todo-main",
   },
+  {
+    name: "Booklist",
+    description: "BookList with Context-API: Dive into the world of literature with our BookList app powered by Context API. Seamlessly manage your reading list, track your progress, and discover new titles with ease. With BookList, you can organize your books into categories, set reading goals, and keep track.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: booklist,
+    source_code_link: "https://github.com/eefe1/BookList",
+  },
+  {
+    name: "Covid statistics App",
+    description: 
+    "Easily track global COVID-19 statistics and trends, from cases and deaths to vaccination rates with the feature of searching by country to country, you can delve deeper into specific regions and compare data with ease.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ChartJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "violet-gradient",
+      },
+    ],
+    image: covidstatistics,
+    source_code_link: "https://github.com/eefe1/BookList",
+  },
+  
 ];
 
 export { services, technologies, experiences, projects };

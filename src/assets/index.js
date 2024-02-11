@@ -32,6 +32,8 @@ import jobsearch from "./jobsearch.png";
 import travelbrew from "./travelbrew.png";
 import pokedex from "./pokedex.png";
 import todoapp from "./todoapp.png";
+import booklist from "./booklist.png";
+import covidstatistics from "./covidstatistics.png";
 
 export {
   logo,
@@ -64,5 +66,7 @@ export {
   jobsearch,
   travelbrew,
   pokedex,
-  todoapp
+  todoapp,
+  booklist,
+  covidstatistics
 };
