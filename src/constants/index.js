@@ -20,7 +20,8 @@ import {
   admin,
   jobsearch,
   threejs,
-  travelbrew
+  travelbrew,
+  pokedex
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +231,23 @@ const projects = [
     ],
     image: admin,
     source_code_link: "https://github.com/eefe1/ecommerce-admin",
+  },
+  {
+    name: "Pokedex",
+    description:
+      "Explore a vast database of Pokémon species, complete with detailed information on each creature's type, abilities, evolutions, and more. With a user-friendly interface and intuitive navigation developed with React.js",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pokedex,
+    source_code_link: "https://github.com/eefe1/pokedex",
   },
 ];
 

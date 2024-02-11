@@ -30,6 +30,7 @@ import classroom from "./classroom.png";
 import admin from "./admin.png";
 import jobsearch from "./jobsearch.png";
 import travelbrew from "./travelbrew.png";
+import pokedex from "./pokedex.png";
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   classroom,
   admin,
   jobsearch,
-  travelbrew
+  travelbrew,
+  pokedex
 };
