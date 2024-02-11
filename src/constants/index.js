@@ -21,7 +21,8 @@ import {
   jobsearch,
   threejs,
   travelbrew,
-  pokedex
+  pokedex,
+  todoapp,
 } from "../assets";
 
 export const navLinks = [
@@ -134,8 +135,7 @@ const experiences = [
     date: "September 2021 - May 2022",
     points: [
       "Node Server connected through API services with the hosting company in order to give status and details for each terminal, while also providing the functionality to turn on or off a terminal of choice. Technologies: NodeJS, Express, EJS for templating, CSS.",
-      "Dashboard for the clients machines, created a server on NodeJS by calling RenderApp API and displaying all the machines by rendering their API status if the machine is on or off. Applied user authentication with passportJS for multiple users and displayed the machine list based on user types.Technologies: NodeJS, Express, EJS for templating, CSS."
-
+      "Dashboard for the clients machines, created a server on NodeJS by calling RenderApp API and displaying all the machines by rendering their API status if the machine is on or off. Applied user authentication with passportJS for multiple users and displayed the machine list based on user types.Technologies: NodeJS, Express, EJS for templating, CSS.",
     ],
   },
   {
@@ -149,7 +149,6 @@ const experiences = [
     ],
   },
 ];
-
 
 const projects = [
   {
@@ -248,6 +247,35 @@ const projects = [
     ],
     image: pokedex,
     source_code_link: "https://github.com/eefe1/pokedex",
+  },
+  {
+    name: "Todo App",
+    description:
+      "A minimal Todo Task App where you can create, save and download your daily tasks.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "violet-gradient",
+      },
+    ],
+    image: todoapp,
+    source_code_link: "https://github.com/eefe1/demo-todo-main",
   },
 ];
 

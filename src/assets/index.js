@@ -31,6 +31,7 @@ import admin from "./admin.png";
 import jobsearch from "./jobsearch.png";
 import travelbrew from "./travelbrew.png";
 import pokedex from "./pokedex.png";
+import todoapp from "./todoapp.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   admin,
   jobsearch,
   travelbrew,
-  pokedex
+  pokedex,
+  todoapp
 };
