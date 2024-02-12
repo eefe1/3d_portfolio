@@ -23,7 +23,8 @@ import {
   travelbrew,
   pokedex,
   todoapp,
-  booklist
+  booklist,
+  covidstatistics
 } from "../assets";
 
 export const navLinks = [
