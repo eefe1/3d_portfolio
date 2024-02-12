@@ -313,7 +313,7 @@ const projects = [
       },
     ],
     image: covidstatistics,
-    source_code_link: "https://github.com/eefe1/BookList",
+    source_code_link: "https://github.com/eefe1/covid19",
   },
   
 ];
