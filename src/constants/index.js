@@ -24,7 +24,8 @@ import {
   pokedex,
   todoapp,
   booklist,
-  covidstatistics
+  covidstatistics,
+  filterproducts,
 } from "../assets";
 
 export const navLinks = [
@@ -281,7 +282,8 @@ const projects = [
   },
   {
     name: "Booklist",
-    description: "BookList with Context-API: Dive into the world of literature with our BookList app powered by Context API. Seamlessly manage your reading list, track your progress, and discover new titles with ease. With BookList, you can organize your books into categories, set reading goals, and keep track.",
+    description:
+      "BookList with Context-API: Dive into the world of literature with our BookList app powered by Context API. Seamlessly manage your reading list, track your progress, and discover new titles with ease. With BookList, you can organize your books into categories, set reading goals, and keep track.",
     tags: [
       {
         name: "Reactjs",
@@ -297,8 +299,8 @@ const projects = [
   },
   {
     name: "Covid statistics App",
-    description: 
-    "Easily track global COVID-19 statistics and trends, from cases and deaths to vaccination rates with the feature of searching by country to country, you can delve deeper into specific regions and compare data with ease.",
+    description:
+      "Easily track global COVID-19 statistics and trends, from cases and deaths to vaccination rates with the feature of searching by country to country, you can delve deeper into specific regions and compare data with ease.",
     tags: [
       {
         name: "Reactjs",
@@ -316,7 +318,26 @@ const projects = [
     image: covidstatistics,
     source_code_link: "https://github.com/eefe1/covid19",
   },
-  
+  {
+    name: "filterproducts",
+    description: "Web App allows user filter, choose, search products.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: filterproducts,
+    source_code_link: "https://github.com/eefe1/filterproduct",
+  },
 ];
 
 export { services, technologies, experiences, projects };

@@ -34,6 +34,7 @@ import pokedex from "./pokedex.png";
 import todoapp from "./todoapp.png";
 import booklist from "./booklist.png";
 import covidstatistics from "./covidstatistics.png";
+import filterproducts from "./filterproducts.png";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   pokedex,
   todoapp,
   booklist,
-  covidstatistics
+  covidstatistics,
+  filterproducts
 };
